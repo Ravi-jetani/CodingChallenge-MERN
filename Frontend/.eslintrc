@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "overrides": [],
+  "rules": {
+    "quotes": [2, "double"],
+    "comma-dangle": [1, "always-multiline"],
+
+  }
+}

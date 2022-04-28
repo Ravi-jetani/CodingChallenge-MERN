@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "seed": "seed -u 'mongodb://127.0.0.1:27017/challenge' --drop-database ./data-seeds"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "faker": "^5.2.0",
+    "mongo-seeding": "^3.5.0",
+    "mongo-seeding-cli": "^3.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
